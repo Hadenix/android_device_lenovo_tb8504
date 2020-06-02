@@ -134,10 +134,6 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     Snap
 
-# Consumerir
-PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.lenovo_tb8504
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
