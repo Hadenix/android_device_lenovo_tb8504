@@ -21,12 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from tb8504 device
 $(call inherit-product, device/lenovo/tb8504/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tb8504
-PRODUCT_NAME := lineage_tb8504
+PRODUCT_NAME := aosp_tb8504
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Tab 4
 PRODUCT_MANUFACTURER := Lenovo

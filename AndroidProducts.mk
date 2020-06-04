@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2019 The aospOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tb8504.mk
+    $(LOCAL_DIR)/aosp_tb8504.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tb8504-user \
-    lineage_tb8504-userdebug \
-    lineage_tb8504-eng
+    aosp_tb8504-user \
+    aosp_tb8504-userdebug \
+    aosp_tb8504-eng
