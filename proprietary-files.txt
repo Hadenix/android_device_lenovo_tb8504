@@ -416,9 +416,9 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 vendor/bin/hvdcp_opti|4d2b255d60428363d2acf73763b6031f292bef4c
 
 # CNE - from LA.UM.8.6.r1-04000-89xx.0
-etc/cne/Nexus/ATT/ATT_profiles.xml|a0039cb3a4c5a4ca1adf897904b61c91e32d06f7
-etc/cne/Nexus/ROW/ROW_profiles.xml|e3907ff71cbbe0f1073ec1bf0223d26c8282aa35
-etc/cne/Nexus/VZW/VZW_profiles.xml|0d35b3266ea656d8868ae8f5d7e938f4859e9b0a
+etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
+etc/cne/Nexus/ROW/ROW_profiles.xml|238e785e9674b27c4b2365958d127533d7293132
+etc/cne/Nexus/VZW/VZW_profiles.xml|0f63b632e3a3f114def7aeadaabd13851c8ceec5
 product/lib64/com.quicinc.cne.api@1.0.so|06764410022518f75a8e7fa1de35b7577cdbe8f9
 product/lib64/com.quicinc.cne.api@1.1.so|8940ad6defe4ffba387a259a698c2def51f1d5fa
 product/lib64/com.quicinc.cne.constants@1.0.so|e2f9123a013c2c116b02a1e057870f885808f654
@@ -626,7 +626,7 @@ vendor/lib64/librs_adreno.so|5ec4bcbf396d1e2ed97201e84562c410dc1f52d4
 vendor/lib64/librs_adreno_sha1.so|9073bfded085888bd49a80bdd96ca80bc5d5b23a
 
 # Graphics (Postprocessing) - from LA.UM.8.6.r1-04000-89xx.0
-etc/permissions/com.qti.snapdragon.sdk.display.xml|79a36c560f8cdbfeca03911fefc282bda25b2322
+etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|495d45dd84a61e873a3d1176ab7741826e60d7f1
 vendor/bin/hw/vendor.display.color@1.0-service|dd461fbbbdc7175b8e1e37eba19bc1c48111b5b6
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|a25c2cc8a0498b8f3a08770b97e49b5545868eca
@@ -798,7 +798,7 @@ vendor/lib64/libqsocket.so|6264041e0e897f78dc9b6a4be6424cbd927669d0
 # Radio - from Tissot PKQ1.180917.001.V10.0.17.0.PDHMIXM
 -app/QtiTelephonyService/QtiTelephonyService.apk|420b39e20a5166940c1e2e55e8d9c92ec910cebb
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
-etc/permissions/telephonyservice.xml|3a6bc2a522270f968ff5a332b8781c0289e6d1ef
+etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
 framework/QtiTelephonyServicelibrary.jar|1df2f89ffb3aedc36e1c2ca7cafbf73a6a06b3fb
 framework/qcrilhook.jar|784df5e6aa9df0127700b9a6f1083440ebfac057
 vendor/bin/ATFWD-daemon|d8e8b853f33411504054eb965b1fb836544daee4
