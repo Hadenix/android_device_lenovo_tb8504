@@ -1,23 +1,23 @@
-# Device Tree for Xiaomi Redmi Note 4 & 4x (Mido)
+# Device Tree for Lenovo Tab 4 8 (TB-8504X/F)
 
-## Spec Sheet
+The Lenovo Tab 4 8 (codenamed _"tb8504"_).
+It was released in February 2017.
 
 | Feature                 | Specification                     |
 | :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 2.0 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8953 Snapdragon 625   |
-| GPU                     | Adreno 506                        |
-| Memory                  | 2/3/4 GB                          |
-| Shipped Android Version | 6.0.1                             |
-| Storage                 | 32/64 GB                          |
+| CPU                     | Quad-core 1.4 GHz Cortex-A53      |
+| Chipset                 | Qualcomm MSM8917 Snapdragon 425   |
+| GPU                     | Adreno 306                        |
+| Memory                  | 2 GB                              |
+| Shipped Android Version | 7.0/8.1.0/8.1.1                   |
+| Storage                 | 16/32 GB                          |
 | MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4100 mAh (non-removable)          |
-| Dimensions              | 151 x 76 x 8.5 mm                 |
-| Display                 | 1920x1080 pixels, 5.5 (~401 PPI)  |
-| Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
-| Release Date            | January 2017                      |
+| Battery                 | 4850 mAh (non-removable)          |
+| Dimensions              | 211 x 124 x 8.2 mm                |
+| Display                 | 800 x 1280 pixels, 16:10 ratio (~189 ppi density)  |
+| Rear Camera             | 5 MP                              |
+| Front Camera            | 2 MP                              |
 
 ## Device Picture
 
-![Redmi Note 4](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "Redmi Note 4")
+![TB-8504X](https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-tab-4-8-1.jpg "TB-8504X")
