@@ -1,5 +1,5 @@
 #
-# system.prop for mido
+# system.prop for tb8504
 #
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \

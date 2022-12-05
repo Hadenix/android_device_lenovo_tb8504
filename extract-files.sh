@@ -25,8 +25,8 @@ fi
 set -e
 
 # Required!
-DEVICE=mido
-VENDOR=xiaomi
+DEVICE=tb8504
+VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

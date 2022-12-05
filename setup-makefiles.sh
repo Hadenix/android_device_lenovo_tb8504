@@ -19,8 +19,8 @@
 set -e
 
 # Required!
-DEVICE=mido
-VENDOR=xiaomi
+DEVICE=tb8504
+VENDOR=lenovo
 
 INITIAL_COPYRIGHT_YEAR=2017
 

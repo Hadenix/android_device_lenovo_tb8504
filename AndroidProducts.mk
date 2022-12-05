@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mido.mk
+    $(LOCAL_DIR)/lineage_tb8504.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mido-user \
-    lineage_mido-userdebug \
-    lineage_mido-eng
+    lineage_tb8504-user \
+    lineage_tb8504-userdebug \
+    lineage_tb8504-eng

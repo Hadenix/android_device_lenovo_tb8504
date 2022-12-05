@@ -14,11 +14,8 @@
 # limitations under the License.
 #
 
-# Use KudProject dev certificates if available
--include vendor/kud/config/certs.mk
-
-$(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
+$(call inherit-product, vendor/lenovo/tb8704/tb8704-vendor.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -29,8 +26,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 800
+TARGET_SCREEN_WIDTH := 1280
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -139,7 +136,7 @@ PRODUCT_PACKAGES += \
 
 # Consumerir
 PRODUCT_PACKAGES += \
-    android.hardware.ir@1.0-service.xiaomi_mido
+    android.hardware.ir@1.0-service.lenovo_tb8504
 
 # Display
 PRODUCT_PACKAGES += \
@@ -162,7 +159,7 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    lenovoParts
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -248,7 +245,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_mido
+    android.hardware.light@2.0-service.lenovo_tb8504
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -368,7 +365,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch features
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi_mido
+    vendor.lineage.touch@1.0-service.lenovo_tb8504
 
 # Trust HAL
 PRODUCT_PACKAGES += \

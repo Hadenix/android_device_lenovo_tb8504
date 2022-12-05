@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),mido)
+ifeq ($(TARGET_DEVICE),tb8504)
 
 include $(call all-subdir-makefiles)
 
